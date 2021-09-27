@@ -18,10 +18,19 @@
 		padding: 0px;
 	}
 
+	nav img{
+		width: 7rem;
+	}
+
+	nav button{
+		width: 6rem;
+		height: 3rem;
+	}
+
 }
 
 nav{
-	padding: 3rem;
+	padding: 2rem;
 	display: flex;
 	justify-content: space-between;
 }
@@ -68,8 +77,13 @@ nav > button:hover{
 }
 
 @media (max-width: 1100px){
+	#top-banner #heading h1{
+		font-size: 32px;
+		margin: auto;
+	}
+
 	#top-banner #heading p{
-		margin: 15px 5rem;
+		margin: auto;
 	}
 }
 
