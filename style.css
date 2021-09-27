@@ -83,7 +83,7 @@ nav > button:hover{
 	}
 
 	#top-banner #heading p{
-		margin: auto;
+		margin: 0px 2rem;
 	}
 }
 
@@ -353,13 +353,13 @@ ion-icon:hover{
 
 #form button{
 	border: none;
-	padding: 12spx;
+	padding: 12px;
 	height: 42px;
 	width: 100px;
 	cursor: pointer;
 	color: #ffffff;
 	border-radius: 25px;
-	background-color: hsl(322, 100%, 66%);k
+	background-color: hsl(322, 100%, 66%);
 	font-family: 'poppins',sans-serif;
 	font-weight: 600;
 }
