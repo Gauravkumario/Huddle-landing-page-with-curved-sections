@@ -6,9 +6,18 @@
 	box-sizing: border-box;
 }
 
+
+
 #top-banner{
 	width: 100%;
 	height: 90vh;
+}
+
+@media (max-width: 800px){
+	nav{
+		padding: 1rem;
+	}
+	
 }
 
 nav{
@@ -351,6 +360,7 @@ ion-icon:hover{
 		height: 100vh;
 		padding: 0px;
 	}
+
 	#left-foot{
 		width: 100%;
 		padding: 25px;
